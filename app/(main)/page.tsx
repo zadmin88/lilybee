@@ -1,8 +1,10 @@
 import { Hero } from "./_components/hero";
+import CollectionDescription from "./_components/collection-description";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between ">
+    <div className="w-full">
       <Hero />
-    </main>
+      <CollectionDescription />
+    </div>
   );
 }
