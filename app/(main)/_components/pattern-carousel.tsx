@@ -17,7 +17,7 @@ const PatternsCarousel = () => {
       }}
       className="w-full  lg:px-8 mb-8 "
     >
-      <CarouselContent className="">
+      <CarouselContent>
         {Array.from({ length: 6 }).map((_, index) => (
           <CarouselItem key={index} className="p-1 md:basis-1/3 lg:basis-1/4">
             <Image
