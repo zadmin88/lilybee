@@ -16,7 +16,7 @@ const CollectionDescription = () => {
           odio mattis.
         </p>
       </div>
-      <Button size="sm" className="uppercase">
+      <Button size="lg" className="uppercase">
         shop the collection
       </Button>
     </div>
