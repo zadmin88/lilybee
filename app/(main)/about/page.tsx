@@ -1,7 +1,11 @@
-import React from "react";
+import AboutHero from "./_components/hero";
 
 const AboutPage = () => {
-  return <div></div>;
+  return (
+    <div className="w-full">
+      <AboutHero />
+    </div>
+  );
 };
 
 export default AboutPage;
