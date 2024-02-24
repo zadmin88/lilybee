@@ -8,7 +8,7 @@ import { usePathname } from "next/navigation";
 export const Navbar = () => {
   const pathname = usePathname();
   return (
-    <nav className="sticky flex items-center justify-center w-full h-15 px-4 py-4 mb-4 ">
+    <nav className="sticky top-0 flex items-center justify-center w-full h-15 px-4 py-4 mb-4 ">
       <div className="flex justify-items-center gap-16">
         <Link
           className={cn(
