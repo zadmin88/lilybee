@@ -7,7 +7,7 @@ import { Label } from "./ui/label";
 
 export const Footer = () => {
   return (
-    <div className="bottom-0 py-16  p-4 border-t h-[400px] w-full  flex flex-col gap-8 items-center justify-between ">
+    <div className="bottom-0 py-16 bg-[#F7F6F2]  p-4  h-[400px] w-full  flex flex-col gap-8 items-center justify-between ">
       <Image
         src="/isotipo.png"
         alt="Logo"
