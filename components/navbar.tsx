@@ -13,8 +13,8 @@ export const Navbar = () => {
   return (
     <nav
       className={cn(
-        "sticky top-0 flex md:items-center justify-between md:justify-center w-full h-15 px-0 md:px-4 py-4 mb-4 bg-mainBackground z-50",
-        scrolled && "fixed"
+        "fixed md:sticky top-0 flex md:items-center justify-between md:justify-center w-full h-15 px-0 md:px-4 py-4 mb-4 bg-mainBackground z-50",
+        scrolled && "md:fixed "
       )}
     >
       <div className="flex gap-2  md:gap-16">
