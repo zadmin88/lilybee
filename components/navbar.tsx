@@ -13,10 +13,19 @@ export const Navbar = () => {
   return (
     <nav
       className={cn(
-        "fixed md:sticky top-0 flex md:items-center justify-between md:justify-center w-full h-15 px-0 md:px-4 py-4 mb-4 bg-mainBackground z-50",
-        scrolled && "md:fixed "
+        "fixed md:sticky top-0 flex items-center  md:justify-center w-full h-15 px-8 md:px-4 py-4 mb-4 bg-mainBackground z-50",
+        scrolled && "md:fixed  "
       )}
     >
+      <Link className="transition w-full flex justify-start md:hidden" href="/">
+        <Image
+          src="/logo.png"
+          alt="Logo"
+          width={1200}
+          height={240}
+          className="h-15 w-56 "
+        />
+      </Link>
       <div className="flex gap-2  md:gap-16">
         <Link
           className={cn(
@@ -69,15 +78,6 @@ export const Navbar = () => {
           <Twitter size={24} />
         </a>
       </div>
-      <Link className="transition w-full flex justify-end md:hidden" href="/">
-        <Image
-          src="/logo.png"
-          alt="Logo"
-          width={1200}
-          height={240}
-          className="h-15 w-56 "
-        />
-      </Link>
     </nav>
   );
 };
