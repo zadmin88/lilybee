@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const CollectionDescription = () => {
   return (
@@ -16,12 +17,14 @@ const CollectionDescription = () => {
           odio mattis.
         </p>
       </div>
-      <Button
-        size="lg"
-        className="uppercase w-full mt-8 lg:mt-0 md:w-[800px] lg:w-48"
-      >
-        shop the collection
-      </Button>
+      <Link href="/collections/spring">
+        <Button
+          size="lg"
+          className="uppercase w-full mt-8 lg:mt-0 md:w-[800px] lg:w-48"
+        >
+          shop the collection
+        </Button>
+      </Link>
     </div>
   );
 };

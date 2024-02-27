@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const FamilyComponent = () => {
   return (
@@ -12,9 +13,11 @@ const FamilyComponent = () => {
           elit sed risus. risus sem sollicitudin lacus, ut interdum tellus elit
           sed risus.
         </p>
-        <Button className="uppercase w-40" size="lg">
-          learn more
-        </Button>
+        <Link href="/about">
+          <Button className="uppercase w-40" size="lg">
+            learn more
+          </Button>
+        </Link>
       </div>
       <Image
         src="/family.png"
