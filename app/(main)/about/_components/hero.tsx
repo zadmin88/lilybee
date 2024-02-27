@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AboutHero = () => {
   return (
-    <div className=" relative h-[600px] w-full flex gap-24 justify-between items-center px-20">
+    <div className=" relative h-[600px] w-full flex flex-col lg:flex-row lg:gap-24 justify-between items-center lg:px-20">
       <Image
         src="/about.png"
         alt="about me"
@@ -10,7 +10,7 @@ const AboutHero = () => {
         height={496}
         className="h-[496px]"
       />
-      <div className="w-[500px] flex flex-col gap-4  ">
+      <div className="w-full lg:w-[500px] flex flex-col gap-4 mt-8 lg:mt-0  ">
         <h1 className="font-semibold text-lg ">Hey there, fellow makers!</h1>
         <p>
           I&apos;m Liliana, a mama bear, an art warrior, and a fabric whisperer
@@ -26,7 +26,7 @@ const AboutHero = () => {
         alt="red flowers"
         width={180}
         height={300}
-        className="h-[300px] absolute right-0 bottom-0"
+        className="h-[300px] absolute right-0 -bottom-40 lg:bottom-0 opacity-50 lg:opacity-100"
       />
     </div>
   );

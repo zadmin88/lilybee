@@ -1,6 +1,6 @@
 const AboutDescription = () => {
   return (
-    <div className="h-[500px] flex items-center font px-32 ">
+    <div className="lg:h-[500px] mt-40 lg:mt-0 flex items-center font lg:px-32 ">
       My love affair with crafts blossomed in Colombia, at five years old, when
       my mama gifted me my first needle and thread. Magic danced in every
       stitch, and now, it&apos;s my turn to pass that magic spark to Lily Mia!
