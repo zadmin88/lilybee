@@ -15,7 +15,7 @@ const PatternsCarousel = () => {
         align: "start",
         loop: true,
       }}
-      className="w-full   lg:px-8 mb-8 "
+      className="w-full    lg:px-8 mb-8 "
     >
       <CarouselContent>
         {Array.from({ length: 6 }).map((_, index) => (

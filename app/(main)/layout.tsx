@@ -4,7 +4,7 @@ import { Logo } from "@/components/logo";
 
 const MarketingLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div className="container flex flex-col items-center   ">
+    <div className="container flex flex-col  ">
       <Logo />
       <header className="h-16 flex flex-col items-center w-full ">
         <Navbar />
