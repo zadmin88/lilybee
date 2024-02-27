@@ -19,13 +19,16 @@ export const Navbar = () => {
         scrolled && "md:fixed  "
       )}
     >
-      <Link className="transition w-full flex justify-start md:hidden" href="/">
+      <Link
+        className="transition w-full flex justify-start  md:hidden"
+        href="/"
+      >
         <Image
           src="/logo.png"
           alt="Logo"
           width={1200}
           height={240}
-          className="h-15 w-56 "
+          className="h-11 w-56  "
         />
       </Link>
 
@@ -70,7 +73,7 @@ export const Navbar = () => {
           Blog
         </Link>
       </div>
-      <div className="md:hidden fixed h-10 top-5 right-6 mb-20  ">
+      <div className="md:hidden fixed h-10 top-4 right-6 mb-20  ">
         <MobileToggle>
           <MobileNavbar />
         </MobileToggle>

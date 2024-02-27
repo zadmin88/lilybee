@@ -9,7 +9,10 @@ export default function Home() {
       <Hero />
       <CollectionDescription />
       <PatternsCarousel />
-      <Quote text="Torem ipsum dolor sit amet, consectetur adipiscing elit." />
+      <Quote
+        text="Torem ipsum dolor sit amet, consectetur adipiscing elit."
+        style="text-center"
+      />
       <FamilyComponent />
     </div>
   );
