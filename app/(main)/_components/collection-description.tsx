@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const CollectionDescription = () => {
   return (
-    <div className="w-full h-80  flex lg:flex-row flex-col  justify-between items-center my-8   xl:px-24">
+    <div className="w-full h-full lg:h-80  flex lg:flex-row flex-col  justify-between items-center my-8   xl:px-24">
       <div className="flex flex-col gap-4 max-w-[800px] ">
         <h1 className="text-5xl uppercase font-light ">Spring</h1>
         <p className="text-lg">
@@ -16,7 +16,10 @@ const CollectionDescription = () => {
           odio mattis.
         </p>
       </div>
-      <Button size="lg" className="uppercase w-full lg:w-48">
+      <Button
+        size="lg"
+        className="uppercase w-full mt-8 lg:mt-0 md:w-[800px] lg:w-48"
+      >
         shop the collection
       </Button>
     </div>
