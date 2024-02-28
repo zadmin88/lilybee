@@ -3,21 +3,27 @@ import Image from "next/image";
 
 const ContactPage = () => {
   return (
-    <div className=" relative w-full lg:w-[1400px] my-16 flex flex-col">
+    <div className=" relative w-full my-12  lg:my-16 flex flex-col">
       <Image
         src="/contact-flower.png"
         alt="Contact"
         width={350}
         height={200}
-        className=" absolute -top-48 right-8 "
+        className=" absolute -bottom-32 -right-4 lg:-top-48 lg:right-8 opacity-50 lg:opacity-90 "
       />
       <p className="text-lg text-center mb-16">
         Hi there! Please feel to leave me a message, comment, question or just a
         positive thought. <br /> I look forward to reading all you have to say.
       </p>
-      <div className=" flex items-center px-32">
-        <Image src="/contact.png" alt="Contact" width={400} height={400} />
-        <form className="max-w-md mx-auto">
+      <div className=" flex items-center flex-col lg:flex-row lg:px-32 gap-16 lg:gap-0">
+        <Image
+          src="/contact.png"
+          alt="Contact"
+          width={600}
+          height={600}
+          className="lg:h-[400] h-[600px]  lg:w-[400px] w-[600px]"
+        />
+        <form className=" mx-auto">
           <div className="mb-4">
             <label
               htmlFor="name"
