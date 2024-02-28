@@ -78,7 +78,7 @@ export const Navbar = () => {
           <MobileNavbar />
         </MobileToggle>
       </div>
-      <div className="hidden absolute right-0 top-1/2 transform -translate-y-1/2 md:flex gap-2 ">
+      <div className="hidden absolute right-4 top-1/2 transform -translate-y-1/2 md:flex gap-2 ">
         <a href="https://www.instagram.com/lilybeegentle/">
           <Instagram size={24} />
         </a>
