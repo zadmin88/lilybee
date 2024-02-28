@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const AboutPage = () => {
   return (
-    <div className="w-full">
+    <div className="w-full px-1 lg:px-0">
       <AboutHero />
       <AboutDescription />
       <Quote

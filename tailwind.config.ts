@@ -21,6 +21,7 @@ const config = {
       colors: {
         mainBackground: "#FDFDF9",
         secondaryBackground: "#F5EFE9",
+        mainText: "#4B5666",
 
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
