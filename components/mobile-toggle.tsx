@@ -30,7 +30,7 @@ export const MobileToggle = ({ children }: { children: React.ReactNode }) => {
           <Menu />
         </Button>
       </SheetTrigger>
-      <SheetContent side="bottom" className="p-0 w-full flex gap-0 ">
+      <SheetContent side="right" className="p-0 w-full flex gap-0 ">
         {children}
       </SheetContent>
     </Sheet>
