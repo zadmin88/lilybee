@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import handler from "@/actions/resend-action";
 
 const ContactPage = () => {
   return (
@@ -23,7 +24,7 @@ const ContactPage = () => {
           height={600}
           className="lg:h-[400] h-[600px]  lg:w-[400px] w-[600px]"
         />
-        <form className=" mx-auto">
+        <form className=" mx-auto" action={handler}>
           <div className="mb-4">
             <label
               htmlFor="name"
