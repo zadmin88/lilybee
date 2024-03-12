@@ -21,8 +21,7 @@ import {
 
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-
-export const formSchema = z.object({
+const formSchema = z.object({
   name: z.string().min(1, {
     message: "Name is required",
   }),
