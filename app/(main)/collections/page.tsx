@@ -5,7 +5,7 @@ const CollectionsPage = () => {
     <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-20 gap-12 py-16 place-items-center ">
       <CollectionCard
         imageUrl="/spring-card.png"
-        description="Forem ipsum dolor sit amet, consectetur adipiscing elit. "
+        description="This collection is all about fresh starts and celebrating new beginnings."
         name="spring"
       />
       <CollectionCard
