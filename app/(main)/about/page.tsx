@@ -11,7 +11,8 @@ const AboutPage = () => {
       <AboutDescription />
       <Quote
         style="lg:px-48 text-center mt-16 lg:my-0"
-        text="My biggest takeaway from this wild ride? Trust the journey, savor the moments, and remember, snuggles are always the best answer."
+        text="Calling all creative bees! I can't wait to see the amazing things you bring to life with my fabrics. Share your masterpiece by tagging #lilybeegentle on social media, and let's spread the joy of crafting together!
+        "
       />
       <ClosingText />
       <Image

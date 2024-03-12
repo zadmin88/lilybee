@@ -1,30 +1,50 @@
 const AboutDescription = () => {
   return (
-    <div className="lg:h-[500px] mt-40 lg:mt-0 flex items-center font lg:px-32 ">
-      My love affair with crafts blossomed in Colombia, at five years old, when
-      my mama gifted me my first needle and thread. Magic danced in every
-      stitch, and now, it&apos;s my turn to pass that magic spark to Lily Mia!
-      <br />
-      <br />
-      Life took a wild turn when I met my husband. I moved to US, learned
-      English, conquered dental hygiene school, and somehow still managed to
-      squeeze in some creative time. Thanks for always believing in me, honey!
-      Remember that first sewing machine? A treasured memory, along with that
-      wonky-but-adorable pillow cover I made.
-      <br />
-      <br /> Then came the greatest gift of all: Lily Mia, born on Christmas Eve
-      like a sprinkle of cinnamon sugar on our lives. While pregnant, I made her
-      endless handmade treasures, and guess what? Lily Bee Gentle was born!
-      <br />
-      <br />
-      It started as a cozy blanket haven on Etsy, but then, like a bolt of
-      inspiration, my world expanded.
-      <br />
-      <br />
-      Now, I&apos;m homeschooling my little explorer, building a beautiful
-      family, and crafting a fabric empire from scratch. My mission? To empower
-      YOU, fellow makers, to create your own handmade masterpieces with my
-      collections! Can&apos;t wait to see the magic you create!
+    <div className="lg:h-[600px] mt-40 lg:mt-0 flex items-center font lg:px-32 ">
+      <p>
+        <span className="font-semibold">
+          Just like you, I love hearing stories!
+        </span>
+        They remind us that all our unique journeys shape who we are today.
+        <br />
+        <br />
+        <span className="font-semibold">
+          So, let me take you on a little trip.
+        </span>
+        My love for all things creative blossomed in Colombia where I grew up,
+        thanks to my incredible mom who nurtured my artistic spirit.
+        <br />
+        <br /> Fast forward, and I found myself married to the love of my life,
+        a Marine officer. I moved to the US, and with his unwavering support, I
+        learned English, went to school, and even became a dental hygienist!
+        I&apos;m so grateful to my husband for always cheering me on, especially
+        when we bought my first sewing machine and made my very own first pillow
+        cover (Thank you, sweetheart, for always believing in my dreams!)
+        <br />
+        <br /> Speaking of creative bursts, when I was expecting my precious
+        daughter, inspiration went into overdrive! I spent those pre-mom moments
+        crafting beautiful things for her arrival. It was during this time,
+        while lovingly making her blanket, that a tiny seed of a business idea
+        sprouted.
+        <br />
+        <br />
+        Then, on Christmas Eve, arrived the greatest gift of all – our precious
+        daughter Lily Mia!
+        <br />
+        <br /> And so, in 2022, Lily Bee Gentle bloomed as a beautiful
+        personalized blanket store on Etsy. My love for stunning fabrics led me
+        down a new, exciting path – becoming a fabric designer! It was both
+        magical and challenging, but I embraced it with open arms.
+        <br />
+        <br /> Today, I homeschool my little one and find endless inspiration in
+        the beauty of Japan, all while creating precious memories with my
+        family. And, of course, the journey continues with building our business
+        from scratch!
+        <br />
+        <br />
+        My mission is to share the joys of nature through my fabric collections,
+        hoping to spark inspiration for your own creative projects.
+      </p>
     </div>
   );
 };

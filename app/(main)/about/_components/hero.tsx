@@ -13,12 +13,10 @@ const AboutHero = () => {
       <div className="w-full lg:w-[500px] flex flex-col gap-4 mt-8 lg:mt-0  ">
         <h1 className="font-semibold text-lg ">Hey there, fellow makers!</h1>
         <p>
-          I&apos;m Liliana, a mama bear, an art warrior, and a fabric whisperer
-          (okay, okay, just a designer). Living my best life, with my mini-me,
-          Lily Mia, following my Marine officer hubby across the US. We&apos;re
-          a quiet souls, quality time is our jam, but don&apos;t let that fool
-          you - Peloton rides keep my adrenaline pumping, while nature walks
-          fuel our creative fire.
+          Hi there! So thrilled you&apos;re here! I&apos;m Liliana, a mama,
+          artist, and surface pattern designer living in the beautiful island of
+          Japan. I adore capturing the magic of nature in my fabric designs,
+          helping your handmade items stand out from the crowd.
         </p>
       </div>
       <Image
