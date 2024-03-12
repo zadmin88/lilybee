@@ -13,8 +13,10 @@ const ContactPage = () => {
         className=" absolute -bottom-32 -right-4 lg:-top-48 lg:right-8 opacity-50 lg:opacity-90 "
       />
       <p className="text-lg text-center mb-16">
-        Hi there! Please feel to leave me a message, comment, question or just a
-        positive thought. <br /> I look forward to reading all you have to say.
+        <span className="font-semibold"> I&apos;d love to hear from you!</span>{" "}
+        Feel free to leave a message, share a comment, ask a question, or even
+        send a positive thought my way.
+        <br /> I&apos;m eager to connect and hear what you have to say.
       </p>
       <div className=" flex items-center flex-col lg:flex-row lg:px-32 gap-16 lg:gap-0">
         <Image
