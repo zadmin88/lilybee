@@ -13,14 +13,14 @@ const handler = async (formData: FormData) => {
     return "Please fill out all fields";
   }
 
-  resend.emails.send({
-    from: "onboarding@resend.dev",
-    to: email as string,
-    subject: "Hello World",
-    html: "<p>Congrats on sending your <strong>first email</strong>!</p>",
+  const sentEmail = await resend.emails.send({
+    from: "contact@lilybeegentle.com",
+    to: "zaimon88@gmail.com",
+    subject: `${name as string} - ${email as string}`,
+    html: `<p>${message}</p>`,
   });
 
-  return "Email sent!";
+  return sentEmail ? "Email sent" : "Email failed to send";
 };
 
 export default handler;

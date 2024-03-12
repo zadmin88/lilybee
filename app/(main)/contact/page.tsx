@@ -1,8 +1,16 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import handler from "@/actions/resend-action";
+import { useRouter } from "next/navigation";
 
 const ContactPage = () => {
+  const router = useRouter();
+
+  const onSubmit = async (formData: FormData) => {
+    const email = await handler(formData);
+  };
   return (
     <div className=" relative w-full my-12  lg:my-16 flex flex-col">
       <Image
