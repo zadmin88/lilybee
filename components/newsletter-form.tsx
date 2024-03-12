@@ -9,25 +9,29 @@ const Newsletter = () => {
   const [status, setStatus] = useState<
     "success" | "error" | "loading" | "idle"
   >("idle");
-  const [responseMsg, setResponseMsg] = useState<string>("");
+  const [responseMsg, setResponseMsg] = useState<string>();
   const [statusCode, setStatusCode] = useState<number>();
 
   async function handleSubscribe(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus("loading");
-
     try {
       const response = await axios.post("/api/subscribe", { email });
-
       setStatus("success");
       setStatusCode(response.status);
       setEmail("");
-      setResponseMsg(response.data.message);
+      setResponseMsg(response.data);
+      setTimeout(() => {
+        setResponseMsg("");
+      }, 3000);
     } catch (err) {
       if (axios.isAxiosError(err)) {
         setStatus("error");
         setStatusCode(err.response?.status);
-        setResponseMsg(err.response?.data.error);
+        setResponseMsg(err.response?.data);
+        setTimeout(() => {
+          setResponseMsg("");
+        }, 3000);
       }
     }
   }
@@ -35,9 +39,9 @@ const Newsletter = () => {
   return (
     <>
       <form className="rounded px-8  max-w-md" onSubmit={handleSubscribe}>
-        <div className="flex">
+        <div className="flex gap-4">
           <input
-            className={`grow  transition ease-out delay-75 focus-within:border-2 focus-within:border-purple-600 items-center  pr-0.5 rounded caret-purple-700 outline-none px-4 disabled:border-slate-400 border ${
+            className={`grow w-64  transition ease-out delay-75 focus-within:border-2 focus-within:border-mainText items-center  pr-0.5 rounded caret-purple-700 outline-none px-4 disabled:border-slate-400 border ${
               statusCode == 400 ? "border-orange-500" : ""
             } `}
             type="email"
@@ -54,9 +58,11 @@ const Newsletter = () => {
             Subscribe
           </Button>
         </div>
-        <div className="server-message pt-4 text-green-600">
+        <div className="server-message pt-4 text-mainText ">
           {status === "success" ? (
-            <p className="text-green-600">{responseMsg}</p>
+            <p className="text-mainText font-semibold text-base">
+              {responseMsg}
+            </p>
           ) : null}
           {status === "error" ? (
             <p className="text-orange-600">{responseMsg}</p>
