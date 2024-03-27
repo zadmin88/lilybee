@@ -3,6 +3,7 @@ import AboutDescription from "./_components/about-description";
 import Quote from "@/components/quote";
 import ClosingText from "./_components/closing-text";
 import Image from "next/image";
+import FabricComponent from "./_components/fabric";
 
 const AboutPage = () => {
   return (
@@ -15,20 +16,7 @@ const AboutPage = () => {
         "
       />
       <ClosingText />
-      <Image
-        src="/about-footer.png"
-        alt="Logo"
-        width={1400}
-        height={240}
-        className="hidden md:flex"
-      />
-      <Image
-        src="/about-footer-mobile.png"
-        alt="Logo"
-        width={1400}
-        height={240}
-        className="flex md:hidden"
-      />
+      <FabricComponent />
     </div>
   );
 };
