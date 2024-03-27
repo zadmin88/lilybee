@@ -4,14 +4,14 @@ export const Hero = () => {
   return (
     <>
       <Image
-        src="/hero-spring.png"
+        src="/images/lilybee-website-banner-efflorence-desktop.webp"
         alt="Logo"
         width={1400}
         height={240}
         className="hidden sm:block"
       />
       <Image
-        src="/hero-spring-mobile.png"
+        src="/images/lilybee-website-banner-efflorence-mobile.webp"
         alt="Logo"
         width={700}
         height={600}
