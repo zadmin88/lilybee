@@ -21,6 +21,7 @@ const config = {
       colors: {
         mainBackground: "#FDFDF9",
         secondaryBackground: "#F6E9E3",
+        thirdBackground: "#8E5F6F",
         mainText: "#4B5666",
 
         border: "hsl(var(--border))",
