@@ -21,7 +21,9 @@ const PatternsCarousel = () => {
         {Array.from({ length: 6 }).map((_, index) => (
           <CarouselItem key={index} className="p-1 basis-1/2 md:basis-1/4">
             <Image
-              src={`/spring-patterns/pattern${index + 1}.png`}
+              src={`/images/efflorescence-muckups/lilybee-website-efflorescence-m${
+                index + 1
+              }.webp`}
               alt={`Pattern ${index + 1}`}
               width={300}
               height={300}
