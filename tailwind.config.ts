@@ -20,7 +20,7 @@ const config = {
     extend: {
       colors: {
         mainBackground: "#FDFDF9",
-        secondaryBackground: "#F5EFE9",
+        secondaryBackground: "#F6E9E3",
         mainText: "#4B5666",
 
         border: "hsl(var(--border))",

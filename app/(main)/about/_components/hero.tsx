@@ -4,13 +4,20 @@ const AboutHero = () => {
   return (
     <div className=" relative h-[600px] w-full flex flex-col lg:flex-row lg:gap-24 justify-between items-center lg:px-20">
       <Image
-        src="/about.png"
+        src="/images/lilybee-website-about-desktop.webp"
         alt="about me"
         width={600}
         height={496}
-        className="h-[496px]"
+        className="hidden md:block h-[496px]"
       />
-      <div className="w-full lg:w-[500px] flex flex-col gap-4 mt-8 lg:mt-0  ">
+      <Image
+        src="/images/lilybee-website-about-mobile.webp"
+        alt="about me"
+        width={600}
+        height={496}
+        className=" md:hidden h-[496px]"
+      />
+      <div className="w-full lg:w-[500px] flex flex-col gap-4 mt-16 lg:mt-0 px-8 md:px-0  ">
         <h1 className="font-semibold text-lg ">Hey there, fellow makers!</h1>
         <p>
           Hi there! So thrilled you&apos;re here! I&apos;m Liliana, a mama,

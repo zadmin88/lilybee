@@ -5,7 +5,7 @@ import Link from "next/link";
 const FamilyComponent = () => {
   return (
     <div className=" relative mb-8 sm:mb-48  mt-8 flex-col flex   lg:flex-row   lg:my-16 lg:px-16">
-      <div className="bg-secondaryBackground h-[400px] w-full  items-center text-center flex flex-col gap-4 px-8 py-12 xl:mt-24 justify-center ">
+      <div className="bg-secondaryBackground h-[400px] w-full text-mainText  items-center text-center flex flex-col gap-4 px-8 py-12 xl:mt-24 justify-center ">
         <h3 className="text-lg w-full md:w-[400px] font-semibold">
           What makes me happy
         </h3>

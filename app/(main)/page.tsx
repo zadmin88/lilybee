@@ -5,7 +5,7 @@ import Quote from "@/components/quote";
 import FamilyComponent from "./_components/family";
 export default function Home() {
   return (
-    <div className="w-full">
+    <div className="w-full text-mainText">
       <Hero />
       <CollectionDescription />
       <PatternsCarousel />
