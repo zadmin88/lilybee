@@ -76,11 +76,11 @@ const ContactPage = () => {
         loading={loading}
       />
       <Image
-        src="/contact-flower.png"
+        src="/images/lilybee-website-flower3.webp"
         alt="Contact"
         width={350}
         height={200}
-        className=" absolute -bottom-32 -right-4 lg:-top-48 lg:right-8 opacity-50 lg:opacity-90 "
+        className=" absolute -bottom-16 -right-48 lg:-top-0 lg:right-8 opacity-40 lg:opacity-90 "
       />
       <p className="text-lg text-center mb-16">
         <span className="font-semibold"> I&apos;d love to hear from you!</span>{" "}
