@@ -90,11 +90,18 @@ const ContactPage = () => {
       </p>
       <div className=" flex items-center flex-col lg:flex-row lg:px-32 gap-16 lg:gap-0">
         <Image
-          src="/contact.png"
+          src="/images/lilybee-website-contact-desktop.webp"
+          alt="Contact"
+          width={500}
+          height={600}
+          className="hidden md:block"
+        />
+        <Image
+          src="/images/lilybee-website-contact-mobile.webp"
           alt="Contact"
           width={600}
           height={600}
-          className="lg:h-[400] h-[600px]  lg:w-[400px] w-[600px]"
+          className="md:hidden "
         />
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="mx-auto w-80">
@@ -167,54 +174,6 @@ const ContactPage = () => {
             </Button>
           </form>
         </Form>
-        {/* <form className=" mx-auto" action={handler}>
-          <div className="mb-4">
-            <label
-              htmlFor="name"
-              className="block text-lg font-medium text-gray-700"
-            >
-              Name
-            </label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              className="mt-1 px-4 py-2 border border-gray-300 rounded-md w-80"
-            />
-          </div>
-          <div className="mb-4">
-            <label
-              htmlFor="email"
-              className="block text-lg font-medium text-gray-700"
-            >
-              Email
-            </label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              className="mt-1 px-4 py-2 border border-gray-300 rounded-md w-full"
-            />
-          </div>
-          <div className="mb-4">
-            <label
-              htmlFor="message"
-              className="block text-lg font-medium text-gray-700"
-            >
-              Message
-            </label>
-            <textarea
-              id="message"
-              name="message"
-              rows={4}
-              className="mt-1 px-4 py-2 border border-gray-300 rounded-md w-full"
-            ></textarea>
-          </div>
-          <Button type="submit" className="w-full">
-            Submit
-          </Button>
-          {error && <p className="text-red-500 text-center">{error}</p>}
-        </form> */}
       </div>
     </div>
   );
