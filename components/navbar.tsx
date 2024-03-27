@@ -1,7 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { Facebook, Instagram, Twitter } from "lucide-react";
+
+import { FaInstagram, FaFacebookF } from "react-icons/fa";
+import { ImPinterest2 } from "react-icons/im";
 import { cn } from "@/lib/utils";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
@@ -78,15 +80,15 @@ export const Navbar = () => {
           <MobileNavbar />
         </MobileToggle>
       </div>
-      <div className="hidden absolute right-4 top-1/2 transform -translate-y-1/2 md:flex gap-2 ">
+      <div className="hidden absolute right-4 top-1/2 transform -translate-y-1/2 md:flex gap-4 ">
         <a href="https://www.instagram.com/lilybeegentle/">
-          <Instagram size={24} />
+          <FaInstagram size={24} />
+        </a>
+        <a href="https://pinterest.com/lilybeegentle/">
+          <ImPinterest2 size={24} />
         </a>
         <a href="https://www.facebook.com/profile.php?id=100086417744367">
-          <Facebook size={24} />
-        </a>
-        <a href="#">
-          <Twitter size={24} />
+          <FaFacebookF size={24} />
         </a>
       </div>
     </nav>

@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { Facebook, Instagram, Twitter } from "lucide-react";
+import { FaInstagram, FaFacebookF } from "react-icons/fa";
+import { ImPinterest2 } from "react-icons/im";
 
 import { Label } from "./ui/label";
 import Newsletter from "./newsletter-form";
@@ -24,13 +25,13 @@ export const Footer = () => {
 
       <div className=" flex gap-8 ">
         <a href="https://www.instagram.com/lilybeegentle/">
-          <Instagram size={24} />
+          <FaInstagram size={24} />
+        </a>
+        <a href="https://pinterest.com/lilybeegentle/">
+          <ImPinterest2 size={24} />
         </a>
         <a href="https://www.facebook.com/profile.php?id=100086417744367">
-          <Facebook size={24} />
-        </a>
-        <a href="#">
-          <Twitter size={24} />
+          <FaFacebookF size={24} />
         </a>
       </div>
       <p className=" bg-mainText text py-4 w-screen md:w-full flex items-center justify-center text-white px-2 text-sm md:text-sm text-center">

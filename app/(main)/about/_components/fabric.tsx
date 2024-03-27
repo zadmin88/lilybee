@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
 
 const FabricComponent = () => {
   return (
@@ -10,11 +9,11 @@ const FabricComponent = () => {
           Find the perfect fabric for your next project!
         </h3>
 
-        <Link href="https://www.spoonflower.com/profiles/lilybee_design?sub_action=shop">
+        <a href="https://www.spoonflower.com/profiles/lilybee_design?sub_action=shop">
           <Button className="uppercase w-40 mt-4" size="lg">
             shop now
           </Button>
-        </Link>
+        </a>
       </div>
       <Image
         src="/images/lilybee-website-banner-about-desktop.webp"
