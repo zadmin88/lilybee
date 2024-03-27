@@ -9,11 +9,12 @@ export default function Home() {
       <Hero />
       <CollectionDescription />
       <PatternsCarousel />
+
+      <FamilyComponent />
       <Quote
         text="Torem ipsum dolor sit amet, consectetur adipiscing elit."
         style="text-center"
       />
-      <FamilyComponent />
     </div>
   );
 }

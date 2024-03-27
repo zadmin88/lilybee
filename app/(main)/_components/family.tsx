@@ -4,34 +4,41 @@ import Link from "next/link";
 
 const FamilyComponent = () => {
   return (
-    <div className=" relative mb-8 sm:mb-48 mt-8 flex-col flex  lg:flex-row h-[800px] lg:mb-0 lg:my-8 lg:px-16">
-      <div className="bg-secondaryBackground h-[400px] w-full  flex flex-col gap-8 px-8 py-12 xl:mt-12 ">
-        <p className="text-lg w-full md:w-[400px]">
-          Porem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-          turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec
-          fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus
-          elit sed risus. risus sem sollicitudin lacus, ut interdum tellus elit
-          sed risus.
-        </p>
+    <div className=" relative mb-8 sm:mb-48  mt-8 flex-col flex   lg:flex-row   lg:my-16 lg:px-16">
+      <div className="bg-secondaryBackground h-[400px] w-full  items-center text-center flex flex-col gap-4 px-8 py-12 xl:mt-24 justify-center ">
+        <h3 className="text-lg w-full md:w-[400px] font-semibold">
+          What makes me happy
+        </h3>
+        <ul>
+          <li>Flowers</li>
+          <li>Being Home</li>
+          <li>Mountains</li>
+          <li>Peloton rides</li>
+          <li>Hiking</li>
+          <li>Snuggling</li>
+          <li>Black coffee</li>
+          <li>Plants</li>
+          <li>Seeing my daughter grow</li>
+        </ul>
         <Link href="/about">
-          <Button className="uppercase w-40" size="lg">
+          <Button className="uppercase w-40 mt-4" size="lg">
             learn more
           </Button>
         </Link>
       </div>
       <Image
-        src="/family.png"
+        src="/images/lilybee-website-family-desktop.webp"
         alt="Family"
-        width={800}
-        height={800}
+        width={600}
+        height={600}
         className="xl:h-[600px] lg:h-[400px] md:h-[600px]  md:w-full "
       />
       <Image
-        src="/flowers.png"
+        src="/images/lilybee-website-flower1.webp"
         alt="Family"
-        width={500}
-        height={500}
-        className="h-[500px] absolute bottom-40 right-0 top-0 lg:right-[400px] lg:top-[150px] xl:right-[500px] opacity-40 md:opacity-70 lg:opacity-90"
+        width={572}
+        height={852}
+        className="lg:h-[426px] lg:w-[300px] h-[300px] w-[200px] absolute  left-0 lg:-top-16 top-0 opacity-90"
       />
     </div>
   );
