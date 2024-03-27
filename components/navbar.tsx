@@ -22,7 +22,7 @@ export const Navbar = () => {
       )}
     >
       <Link
-        className="transition w-full flex justify-start  md:hidden"
+        className="transition w-full flex justify-center  md:hidden"
         href="/"
       >
         <Image
@@ -75,7 +75,7 @@ export const Navbar = () => {
           Blog
         </Link>
       </div>
-      <div className="md:hidden fixed h-10 top-4 right-6 mb-20  ">
+      <div className="md:hidden fixed h-10 top-4 left-4 mb-20  ">
         <MobileToggle>
           <MobileNavbar />
         </MobileToggle>

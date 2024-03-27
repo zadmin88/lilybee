@@ -6,7 +6,7 @@ const MobileNavItem = ({ url }: { url: string }) => {
   const pathname = usePathname();
   return (
     <Link
-      className="bg-[#4B5666] text-mainBackground w-full rounded-md py-2 flex items-center justify-center text-lg font-semibold capitalize"
+      className="text-mainText w-full rounded-md py-2 flex  text-xl font-semibold capitalize"
       href={`/${url}`}
     >
       {url}
