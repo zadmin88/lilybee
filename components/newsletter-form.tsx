@@ -37,11 +37,11 @@ const Newsletter = () => {
   }
 
   return (
-    <>
-      <form className="rounded px-8  max-w-md" onSubmit={handleSubscribe}>
-        <div className="flex gap-4">
+    <div className="flex w-full  items-center justify-center ">
+      <form className="rounded px-8 " onSubmit={handleSubscribe}>
+        <div className="flex gap-4 md:flex-row flex-col ">
           <input
-            className={`grow w-64  transition ease-out delay-75 focus-within:border-2 focus-within:border-mainText items-center  pr-0.5 rounded caret-purple-700 outline-none px-4 disabled:border-slate-400 border ${
+            className={`grow w-64 h-10   transition ease-out delay-75 focus-within:border-2 focus-within:border-mainText items-center  pr-0.5 rounded caret-purple-700 outline-none px-4 disabled:border-slate-400 border ${
               statusCode == 400 ? "border-orange-500" : ""
             } `}
             type="email"
@@ -69,7 +69,7 @@ const Newsletter = () => {
           ) : null}
         </div>
       </form>
-    </>
+    </div>
   );
 };
 

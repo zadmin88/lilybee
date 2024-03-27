@@ -4,12 +4,12 @@ import { ImPinterest2 } from "react-icons/im";
 
 const MobileNavbar = () => {
   return (
-    <div className="flex flex-col w-full gap-8 mt-16 ml-8  bg-mainBackground">
+    <div className="flex flex-col  gap-8 mt-16 ml-8  bg-mainBackground">
       <MobileNavItem url="about" />
       <MobileNavItem url="collections" />
       <MobileNavItem url="contact" />
       <MobileNavItem url="blog" />
-      <div className=" flex gap-8 ">
+      <div className=" flex gap-8 text-mainText">
         <a href="https://www.instagram.com/lilybeegentle/">
           <FaInstagram size={24} />
         </a>

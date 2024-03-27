@@ -7,7 +7,7 @@ import Newsletter from "./newsletter-form";
 
 export const Footer = () => {
   return (
-    <div className=" bottom-0 py-16 bg-[#F7F6F2]   h-[400px] w-screen md:w-full  flex flex-col gap-8 items-center justify-between ">
+    <div className="bottom-0 pt-16 bg-[#F7F6F2] w-full     flex flex-col gap-8 items-center justify-between ">
       <Image
         src="/isotipo.png"
         alt="Logo"
@@ -23,7 +23,7 @@ export const Footer = () => {
       /> */}
       <Newsletter />
 
-      <div className=" flex gap-8 ">
+      <div className=" flex gap-8 text-mainText ">
         <a href="https://www.instagram.com/lilybeegentle/">
           <FaInstagram size={24} />
         </a>
@@ -34,7 +34,7 @@ export const Footer = () => {
           <FaFacebookF size={24} />
         </a>
       </div>
-      <p className=" bg-mainText text py-4 w-screen md:w-full flex items-center justify-center text-white px-2 text-sm md:text-sm text-center">
+      <p className=" bg-mainText text py-4  md:w-full flex items-center justify-center text-white px-2 text-sm md:text-sm text-center">
         This website and all the artwork contained within are copyright ©Lily
         Bee Gentle, LLC. All rights reserved.
       </p>

@@ -6,7 +6,7 @@ const CollectionDescription = () => {
     <div className="w-full h-full lg:h-80  flex lg:flex-row flex-col  justify-between items-center my-8   xl:px-24">
       <div className="flex flex-col gap-4 max-w-[800px] ">
         <h1 className="text-5xl uppercase font-light ">Efflorescence</h1>
-        <p className="text-lg">
+        <p className="text-lg px-4 ">
           Efflorescence is here to celebrate my new beginnings as a fabric
           designer. Blooming like a delicate flower, whispering of fresh starts.
           Soft pinks, calming greens, and dreamy blues dance across the fabrics,

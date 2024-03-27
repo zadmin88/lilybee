@@ -17,14 +17,10 @@ export const Navbar = () => {
   return (
     <nav
       className={cn(
-        "fixed md:sticky top-0 flex items-center  md:justify-center w-full h-15 px-8 md:px-4 py-4 mb-4 bg-mainBackground z-50",
-        scrolled && "md:fixed  "
+        "fixed md:sticky top-0 flex items-center  md:justify-center w-full h-15 px-8 md:px-4 py-4 mb-4 bg-mainBackground z-50"
       )}
     >
-      <Link
-        className="transition w-full flex justify-center  md:hidden"
-        href="/"
-      >
+      <Link className=" w-full flex justify-center  md:hidden" href="/">
         <Image
           src="/logo.png"
           alt="Logo"
@@ -80,7 +76,7 @@ export const Navbar = () => {
           <MobileNavbar />
         </MobileToggle>
       </div>
-      <div className="hidden absolute right-4 top-1/2 transform -translate-y-1/2 md:flex gap-4 ">
+      <div className="hidden  absolute right-4 top-1/2 transform -translate-y-1/2 md:flex gap-4 text-mainText ">
         <a href="https://www.instagram.com/lilybeegentle/">
           <FaInstagram size={24} />
         </a>
