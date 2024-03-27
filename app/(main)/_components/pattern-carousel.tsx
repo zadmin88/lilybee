@@ -15,11 +15,14 @@ const PatternsCarousel = () => {
         align: "start",
         loop: true,
       }}
-      className="w-full   lg:px-8 mb-8 "
+      className="w-full  px-0  lg:px-8 mb-8 "
     >
       <CarouselContent>
         {Array.from({ length: 6 }).map((_, index) => (
-          <CarouselItem key={index} className="p-1 basis-1/2 md:basis-1/4">
+          <CarouselItem
+            key={index}
+            className="p-1 mr-2 basis-3/4  md:basis-1/4 "
+          >
             <Image
               src={`/images/efflorescence-muckups/lilybee-website-efflorescence-m${
                 index + 1

@@ -12,8 +12,8 @@ export default function Home() {
 
       <FamilyComponent />
       <Quote
-        text="Torem ipsum dolor sit amet, consectetur adipiscing elit."
-        style="text-center"
+        text="¡Calling all creative bees!  "
+        style="text-center mb-16 font-semibold"
       />
     </div>
   );
