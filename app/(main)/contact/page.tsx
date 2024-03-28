@@ -80,7 +80,14 @@ const ContactPage = () => {
         alt="Contact"
         width={350}
         height={200}
-        className=" absolute -bottom-16 -right-48 lg:-top-0 lg:right-8 opacity-40 lg:opacity-90 "
+        className="hidden md:block absolute -bottom-16 -right-48 lg:-top-0 lg:right-8 opacity-40 lg:opacity-90 "
+      />
+      <Image
+        src="/images/lilybee-website-flower6.webp"
+        alt="Contact"
+        width={250}
+        height={100}
+        className="md:hidden absolute bottom-8 -right-0  opacity-40  "
       />
       <p className="text-lg text-center mb-16">
         <span className="font-semibold"> I&apos;d love to hear from you!</span>{" "}
@@ -101,23 +108,26 @@ const ContactPage = () => {
           alt="Contact"
           width={600}
           height={600}
-          className="md:hidden "
+          className="md:hidden z-0 "
         />
         <Form {...form}>
-          <form onSubmit={form.handleSubmit(onSubmit)} className="mx-auto w-80">
+          <form
+            onSubmit={form.handleSubmit(onSubmit)}
+            className="mx-auto w-80 z-50"
+          >
             <div className="space-y-6  mb-8">
               <FormField
                 control={form.control}
                 name="name"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="uppercase text-xs font-bold text-zinc-500 dark:text-secondary/70">
+                    <FormLabel className="uppercase text-xs font-bold text-zinc-500 ">
                       Name
                     </FormLabel>
                     <FormControl>
                       <Input
                         disabled={isLoading}
-                        className="mt-1 px-4 py-2 border border-gray-300 rounded-md w-full"
+                        className="mt-1 px-4 py-2 border border-gray-300 rounded-md w-full "
                         placeholder="What is your name?"
                         {...field}
                       />
@@ -132,13 +142,13 @@ const ContactPage = () => {
                 name="email"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="uppercase text-xs font-bold text-zinc-500 dark:text-secondary/70">
+                    <FormLabel className="uppercase text-xs font-bold text-zinc-500 ">
                       Email
                     </FormLabel>
                     <FormControl>
                       <Input
                         disabled={isLoading}
-                        className="mt-1 px-4 py-2 border border-gray-300 rounded-md w-full"
+                        className="mt-1 px-4 py-2 border border-gray-300 rounded-md w-full bg-white"
                         placeholder="Email address"
                         {...field}
                       />
@@ -152,7 +162,7 @@ const ContactPage = () => {
                 name="message"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="uppercase text-xs font-bold text-zinc-500 dark:text-secondary/70">
+                    <FormLabel className="uppercase text-xs font-bold text-zinc-500 ">
                       Message
                     </FormLabel>
                     <FormControl>
