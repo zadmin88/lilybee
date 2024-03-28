@@ -30,7 +30,7 @@ export const Navbar = () => {
         />
       </Link>
 
-      <div className="hidden gap-2  md:gap-16 md:flex  ">
+      <div className="hidden gap-4  md:gap-16 md:flex  ">
         <Link
           className={cn(
             "hover:font-semibold text-lg",
