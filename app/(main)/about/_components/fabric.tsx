@@ -34,7 +34,14 @@ const FabricComponent = () => {
         alt="Fabric"
         width={572}
         height={852}
-        className="- lg:h-[426px] lg:w-[300px] h-[300px] w-[200px] absolute -right-16 top-24 md:left-[400px]  md:top-40 opacity-90"
+        className="hidden md:block lg:h-[426px] lg:w-[300px] h-[300px] w-[200px] absolute -right-16 top-24 md:left-[400px]  md:top-40 opacity-90"
+      />
+      <Image
+        src="/images/lilybee-website-flower5.webp"
+        alt="Fabric"
+        width={100}
+        height={200}
+        className="md:hidden absolute -right-0 top-12 md:left-[400px]  md:top-40 opacity-90"
       />
     </div>
   );
