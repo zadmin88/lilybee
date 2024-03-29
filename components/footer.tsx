@@ -15,7 +15,14 @@ export const Footer = () => {
         height={81}
         // className="h-16"
       />
-      <Label className="text-xl">Subscribe to our newsletter</Label>
+      <div className="flex flex-col items-center justify-center">
+        <h3 className="text-xl font-semibold">
+          Ready for a peek behind the magic?{" "}
+        </h3>
+        <p className="text-lg">
+          Head over the newsletter for exclusive content and more!
+        </p>
+      </div>
       {/* <Input
         type="text"
         placeholder="Email"
@@ -34,7 +41,7 @@ export const Footer = () => {
           <FaFacebookF size={24} />
         </a>
       </div>
-      <p className=" bg-mainText text py-4  md:w-full flex items-center justify-center text-white px-2 text-sm md:text-sm text-center">
+      <p className=" bg-footerBackground text py-4  md:w-full flex items-center justify-center text-mainText px-2 text-sm md:text-sm text-center">
         This website and all the artwork contained within are copyright ©Lily
         Bee Gentle, LLC. All rights reserved.
       </p>
