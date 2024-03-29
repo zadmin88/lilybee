@@ -17,7 +17,7 @@ const CollectionCard = ({
       <p>{description}</p>
       {name !== "coming-soon" ? (
         <Link href={`/collections/${name}`}>
-          <Button className="w-full">View all</Button>
+          <Button className="w-full uppercase">View all</Button>
         </Link>
       ) : (
         <p className="rounded-lg w-full font-semibold flex items-center justify-center py-1.5 border-2 border-[#4B5666]">

@@ -89,11 +89,8 @@ const ContactPage = () => {
         height={100}
         className="md:hidden absolute bottom-8 -right-0  opacity-40  "
       />
-      <p className="text-lg text-center mb-16">
-        <span className="font-semibold"> I&apos;d love to hear from you!</span>{" "}
-        Feel free to leave a message, share a comment, ask a question, or even
-        send a positive thought my way.
-        <br /> I&apos;m eager to connect and hear what you have to say.
+      <p className="text-lg text-center mb-16 font-semibold">
+        Let&apos;s team up and create something amazing!
       </p>
       <div className=" flex items-center flex-col lg:flex-row lg:px-32 gap-16 lg:gap-0">
         <Image
@@ -127,7 +124,7 @@ const ContactPage = () => {
                     <FormControl>
                       <Input
                         disabled={isLoading}
-                        className="mt-1 px-4 py-2 border border-gray-300 rounded-md w-full "
+                        className="mt-1 px-4 py-2 border border-gray-300 w-full "
                         placeholder="What is your name?"
                         {...field}
                       />
@@ -148,7 +145,7 @@ const ContactPage = () => {
                     <FormControl>
                       <Input
                         disabled={isLoading}
-                        className="mt-1 px-4 py-2 border border-gray-300 rounded-md w-full bg-white"
+                        className="mt-1 px-4 py-2 border border-gray-300  w-full bg-white"
                         placeholder="Email address"
                         {...field}
                       />
@@ -168,7 +165,7 @@ const ContactPage = () => {
                     <FormControl>
                       <Textarea
                         disabled={isLoading}
-                        className="mt-1 px-4 py-2 border border-gray-300 rounded-md w-full "
+                        className="mt-1 px-4 py-2 border border-gray-300  w-full "
                         placeholder="Tell me what's on your mind!"
                         {...field}
                       />
@@ -179,8 +176,12 @@ const ContactPage = () => {
               />
             </div>
 
-            <Button className="w-full" variant="default" disabled={isLoading}>
-              Send
+            <Button
+              className="w-full uppercase"
+              variant="default"
+              disabled={isLoading}
+            >
+              Send message
             </Button>
           </form>
         </Form>

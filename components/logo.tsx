@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Logo = () => {
   return (
-    <div className="hidden md:flex md:justify-center w-full pt-8 pb-4">
+    <div className="hidden md:flex md:justify-center w-full pt-8 pb-4 bg-headerBackground">
       <Link href="/">
         <Image
           src="/logo.png"
