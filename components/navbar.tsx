@@ -17,7 +17,7 @@ export const Navbar = () => {
   return (
     <nav
       className={cn(
-        "fixed md:sticky top-0 flex items-center  md:justify-center w-full h-15 px-8 md:px-4 py-4 mb-4 bg-mainBackground z-50 ",
+        "fixed md:sticky top-0 flex items-center  md:justify-center w-full h-15 px-8 md:px-4 py-4 mb-4 bg-headerBackground z-50 ",
         scrolled && "md:fixed md:border-b md:border-mainText"
       )}
     >

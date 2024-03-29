@@ -20,6 +20,8 @@ const config = {
     extend: {
       colors: {
         mainBackground: "#FDFDF9",
+        headerBackground: "#FDFBFA",
+        footerBackground: "#F7F6F2",
         secondaryBackground: "#F6E9E3",
         thirdBackground: "#8E5F6F",
         mainText: "#4B5666",
