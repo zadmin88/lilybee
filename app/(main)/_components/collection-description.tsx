@@ -4,26 +4,11 @@ import Link from "next/link";
 const CollectionDescription = () => {
   return (
     <div className="w-full h-full lg:h-80  flex lg:flex-row flex-col  justify-between items-center my-8   xl:px-24">
-      <div className="flex flex-col gap-4 max-w-[800px] ">
+      <div className="flex flex-col gap-4 max-w-[800px] px-4 md:px-0 ">
         <h1 className="text-5xl uppercase font-light ">Efflorescence</h1>
-        <p className="text-lg px-4 ">
-          Efflorescence is here to celebrate my new beginnings as a fabric
-          designer. Blooming like a delicate flower, whispering of fresh starts.
-          Soft pinks, calming greens, and dreamy blues dance across the fabrics,
-          inviting you to explore a new beginning. This collection is a gentle
-          celebration filled with whimsical charm, offering a{" "}
-          <span className="font-semibold">precise blend</span> of classic
-          <span className="font-semibold"> stripes and charming ginghams </span>
-          alongside
-          <span className="font-semibold">
-            {" "}
-            adorable bird motifs and exquisite floral designs.
-          </span>{" "}
-          Imagine the{" "}
-          <span className="font-semibold">
-            quilts, bandanas, hair bows, and dresses
-          </span>{" "}
-          you can create with this collection.
+        <p className="text-lg  ">
+          This collection is all about fresh starts and celebrating new
+          beginnings.
         </p>
       </div>
       <Link href="/collections/efflorescence">
