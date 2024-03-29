@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/button";
 const FabricComponent = () => {
   return (
     <div className=" relative mb-8 sm:mb-48 lg:h-[500px] mt-8 flex-col flex   lg:flex-row   lg:my-16 ">
-      <div className="bg-secondaryBackground  w-full text-mainText  items-center text-center flex flex-col gap-4 px-84  justify-center py-32">
-        <h3 className="text-lg w-full  font-semibold">
-          Find the perfect fabric for your next project!
+      <div className="bg-secondaryBackground/50  w-full text-mainText   items-center  text-center flex flex-col gap-4 px-84  justify-center py-32">
+        <h3 className="text-2xl w-full  font-semibold  ">
+          Find the perfect fabric <br /> for your next project!
         </h3>
 
         <a href="https://www.spoonflower.com/profiles/lilybee_design?sub_action=shop">

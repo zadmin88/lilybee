@@ -30,8 +30,8 @@ const AboutHero = () => {
         src="/red-flowers.png"
         alt="red flowers"
         width={180}
-        height={300}
-        className="h-[300px] absolute right-0 -bottom-40 lg:bottom-0 opacity-50 lg:opacity-100"
+        height={400}
+        className="h-[350px] absolute right-0 -bottom-40 lg:bottom-0 opacity-50 lg:opacity-100"
       />
     </div>
   );
