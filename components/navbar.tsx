@@ -17,7 +17,8 @@ export const Navbar = () => {
   return (
     <nav
       className={cn(
-        "fixed md:sticky top-0 flex items-center  md:justify-center w-full h-15 px-8 md:px-4 py-4 mb-4 bg-mainBackground z-50"
+        "fixed md:sticky top-0 flex items-center  md:justify-center w-full h-15 px-8 md:px-4 py-4 mb-4 bg-mainBackground z-50 ",
+        scrolled && "md:fixed md:border-b md:border-mainText"
       )}
     >
       <Link className=" w-full flex justify-center  md:hidden" href="/">
@@ -30,10 +31,10 @@ export const Navbar = () => {
         />
       </Link>
 
-      <div className="hidden gap-4  md:gap-16 md:flex  ">
+      <div className="hidden  md:flex  gap-8 lg:gap-24 text-mainText">
         <Link
           className={cn(
-            "hover:font-semibold text-lg",
+            "hover:font-semibold text-lg w-24 text-right ",
             pathname === "/about" && "font-semibold "
           )}
           href={"/about"}
@@ -43,7 +44,7 @@ export const Navbar = () => {
 
         <Link
           className={cn(
-            "hover:font-semibold text-lg",
+            "hover:font-semibold text-lg w-24 text-center ",
             pathname === "/collections" && "font-semibold"
           )}
           href={"/collections"}
@@ -53,7 +54,7 @@ export const Navbar = () => {
 
         <Link
           className={cn(
-            "hover:font-semibold text-lg",
+            "hover:font-semibold text-lg w-24 text-center ",
             pathname === "/contact" && "font-semibold"
           )}
           href={"/contact"}
@@ -63,7 +64,7 @@ export const Navbar = () => {
 
         <Link
           className={cn(
-            "hover:font-semibold text-lg",
+            "hover:font-semibold text-lg w-24 text-left ",
             pathname === "/blog" && "font-semibold"
           )}
           href={"/blog"}
