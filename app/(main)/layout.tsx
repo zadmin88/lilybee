@@ -9,7 +9,7 @@ const MarketingLayout = ({ children }: { children: React.ReactNode }) => {
       <header className="h-16 flex  items-center w-full ">
         <Navbar />
       </header>
-      <main className="px-2 md:px-0  md:container ">{children}</main>
+      <main className="px-2 md:px-0  ">{children}</main>
       <Footer />
     </div>
   );

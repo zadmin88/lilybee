@@ -68,7 +68,7 @@ const ContactPage = () => {
 
   const isLoading = form.formState.isSubmitting;
   return (
-    <div className=" relative w-full my-12  lg:my-16 flex flex-col">
+    <div className=" relative w-full my-12  lg:my-16 flex flex-col lg:container">
       <AlertModal
         isOpen={open}
         onClose={onClosed}

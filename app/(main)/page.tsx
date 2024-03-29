@@ -5,15 +5,17 @@ import Quote from "@/components/quote";
 import FamilyComponent from "./_components/family";
 export default function Home() {
   return (
-    <div className="w-full text-mainText">
-      <Hero />
-      <CollectionDescription />
-      <PatternsCarousel />
+    <div className="w-full text-mainText  ">
+      <div className="lg:container">
+        <Hero />
+        <CollectionDescription />
+        <PatternsCarousel />
 
-      <FamilyComponent />
+        <FamilyComponent />
+      </div>
       <Quote
-        text="¡Calling all creative bees!  "
-        style="text-center mb-16 font-semibold"
+        text="Bee Creative"
+        style="text-center mb-16 w-full text-4xl uppercase"
       />
     </div>
   );
