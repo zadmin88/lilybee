@@ -165,7 +165,7 @@ const ContactPage = () => {
                     <FormControl>
                       <Textarea
                         disabled={isLoading}
-                        className="mt-1 px-4 py-2 border border-gray-300  w-full "
+                        className="mt-1 px-4 py-2 border border-gray-300   w-full "
                         placeholder="Tell me what's on your mind!"
                         {...field}
                       />
