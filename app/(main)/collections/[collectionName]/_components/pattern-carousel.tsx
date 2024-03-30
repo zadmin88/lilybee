@@ -21,7 +21,7 @@ const CollectionPatternsCarousel = () => {
         {Array.from({ length: 23 }).map((_, index) => (
           <CarouselItem
             key={index}
-            className="p-1 mr-2 basis-3/4  md:basis-1/4 "
+            className="p-1 mr-2 basis-3/4  md:basis-1/6 "
           >
             <Image
               src={`/images/pattern-circle/lilybee-website-pattern_${
@@ -30,7 +30,7 @@ const CollectionPatternsCarousel = () => {
               alt={`Pattern ${index + 1}`}
               width={300}
               height={300}
-              className="w-[260px] h-[260px] rounded-full self-center"
+              className="w-[200px] h-[200px] rounded-full self-center"
             />
           </CarouselItem>
         ))}

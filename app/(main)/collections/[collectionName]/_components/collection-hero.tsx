@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 const CollectionHero = () => {
   return (
@@ -38,6 +39,11 @@ const CollectionHero = () => {
           </span>{" "}
           you can create with this collection.
         </p>
+        <a href="https://www.spoonflower.com/profiles/lilybee_design?sub_action=shop">
+          <Button className="bg-mainBackground text-mainText uppercase hover:bg-mainBackground/90">
+            shop the collection
+          </Button>
+        </a>
       </div>
     </div>
   );
