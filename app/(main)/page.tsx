@@ -15,7 +15,7 @@ export default function Home() {
       </div>
       <Quote
         text="Bee Creative"
-        style="text-center mb-16 w-full text-4xl uppercase"
+        style="text-center  w-full text-4xl uppercase"
       />
     </div>
   );
