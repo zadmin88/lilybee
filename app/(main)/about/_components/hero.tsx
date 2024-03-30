@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AboutHero = () => {
   return (
-    <div className=" relative h-[600px] w-full flex flex-col lg:flex-row lg:gap-24 justify-between items-center lg:px-20">
+    <div className=" relative h-[600px] w-full flex flex-col lg:flex-row lg:gap-24 justify-between items-center lg:px-20 bg-">
       <Image
         src="/images/lilybee-website-about-desktop.webp"
         alt="about me"
@@ -22,7 +22,8 @@ const AboutHero = () => {
         <p>
           Hi there! So thrilled you&apos;re here! I&apos;m Liliana, a mama,
           artist, and surface pattern designer living in the beautiful island of
-          Japan. I adore capturing the magic of nature in my fabric designs,
+          Japan. <br />
+          <br /> I adore capturing the magic of nature in my fabric designs,
           helping your handmade items stand out from the crowd.
         </p>
       </div>

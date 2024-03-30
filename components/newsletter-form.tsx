@@ -54,6 +54,7 @@ const Newsletter = () => {
             variant="default"
             type="submit"
             disabled={status == "loading"}
+            className="uppercase"
           >
             Subscribe
           </Button>

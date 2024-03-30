@@ -18,7 +18,7 @@ const AboutPage = () => {
         "
       />
       <div className="lg:container">
-        <ClosingText />
+        {/* <ClosingText /> */}
         <FabricComponent />
       </div>
     </div>
