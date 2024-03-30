@@ -30,10 +30,11 @@ const FamilyComponent = () => {
       <Image
         src="/images/lilybee-website-family-desktop.webp"
         alt="Family"
-        width={600}
-        height={600}
+        width="0"
+        height="0"
+        sizes="100vw"
         // fill={true}
-        className="xl:h-[600px] lg:h-[400px] md:h-full  w-full "
+        className="xl:h-[600px] lg:h-[400px] md:h-full  w-full aspect-auto"
         // className="object-cover"
       />
       {/* </div> */}
