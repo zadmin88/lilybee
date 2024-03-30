@@ -26,13 +26,17 @@ const FamilyComponent = () => {
           </Button>
         </Link>
       </div>
+      {/* <div className="w-[600px] h-[600px] relative"> */}
       <Image
         src="/images/lilybee-website-family-desktop.webp"
         alt="Family"
         width={600}
         height={600}
-        className="xl:h-[600px] lg:h-[400px] md:h-[600px]  md:w-full "
+        // fill={true}
+        className="xl:h-[600px] lg:h-[400px] md:h-full  w-full "
+        // className="object-cover"
       />
+      {/* </div> */}
       <Image
         src="/images/lilybee-website-flower1.webp"
         alt="Family"
