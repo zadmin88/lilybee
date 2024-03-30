@@ -7,7 +7,7 @@ import Newsletter from "./newsletter-form";
 
 export const Footer = () => {
   return (
-    <div className="bottom-0 pt-16 bg-footerBackground w-full text-mainText    flex flex-col gap-8 items-center justify-between ">
+    <div className="bottom-0 pt-16 bg-footerBackground w-full text-mainText    flex flex-col gap-4 md:gap-8 items-center justify-between ">
       <Image
         src="/isotipo.png"
         alt="Logo"
@@ -15,11 +15,11 @@ export const Footer = () => {
         height={81}
         // className="h-16"
       />
-      <div className="flex flex-col items-center justify-center">
-        <h3 className="text-xl font-semibold">
+      <div className="flex flex-col items-center justify-center px-8 text-center">
+        <h3 className="md:text-xl font-semibold">
           Ready for a peek behind the magic?{" "}
         </h3>
-        <p className="text-lg">
+        <p className="md:text-lg">
           Head over the newsletter for exclusive content and more!
         </p>
       </div>

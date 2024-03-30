@@ -1,6 +1,7 @@
 "use client";
 
 import { Menu, X } from "lucide-react";
+import { IoMdMenu } from "react-icons/io";
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 
@@ -22,12 +23,8 @@ export const MobileToggle = ({ children }: { children: React.ReactNode }) => {
     <Sheet open={isOpen} onOpenChange={onOpen}>
       <SheetTrigger asChild>
         {isOpen ? (
-          <Button
-            variant="ghost"
-            size="icon"
-            className="lg:hidden text-mainText"
-          >
-            <X className="h-6 w-6" />
+          <Button variant="ghost" size="icon" className="lg:hidden ">
+            <X className="h-12 w-6 text-mainText" />
           </Button>
         ) : (
           <Button
@@ -35,7 +32,7 @@ export const MobileToggle = ({ children }: { children: React.ReactNode }) => {
             size="icon"
             className="lg:hidden text-mainText"
           >
-            <Menu className="h-12 w-6" />
+            <IoMdMenu className="h-16 w-6 text-mainText" />
           </Button>
         )}
       </SheetTrigger>
