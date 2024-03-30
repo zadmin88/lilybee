@@ -4,7 +4,7 @@ import { ImPinterest2 } from "react-icons/im";
 
 const MobileNavbar = () => {
   return (
-    <div className="flex flex-col  gap-8 mt-16 ml-8  bg-mainBackground">
+    <div className="flex flex-col  gap-8 mt-16 ml-8  bg-mainBackground z-50">
       <MobileNavItem url="about" />
       <MobileNavItem url="collections" />
       <MobileNavItem url="contact" />

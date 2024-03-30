@@ -22,11 +22,19 @@ export const MobileToggle = ({ children }: { children: React.ReactNode }) => {
     <Sheet open={isOpen} onOpenChange={onOpen}>
       <SheetTrigger asChild>
         {isOpen ? (
-          <Button variant="ghost" size="icon" className="lg:hidden">
+          <Button
+            variant="ghost"
+            size="icon"
+            className="lg:hidden text-mainText"
+          >
             <X className="h-6 w-6" />
           </Button>
         ) : (
-          <Button variant="ghost" size="icon" className="lg:hidden">
+          <Button
+            variant="ghost"
+            size="icon"
+            className="lg:hidden text-mainText"
+          >
             <Menu className="h-12 w-6" />
           </Button>
         )}

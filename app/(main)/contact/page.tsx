@@ -68,7 +68,7 @@ const ContactPage = () => {
 
   const isLoading = form.formState.isSubmitting;
   return (
-    <div className=" relative w-full my-12  lg:my-16 flex flex-col lg:container">
+    <div className=" relative w-full my-12  lg:my-16 flex flex-col lg:container text-mainText">
       <AlertModal
         isOpen={open}
         onClose={onClosed}
@@ -110,7 +110,7 @@ const ContactPage = () => {
         <Form {...form}>
           <form
             onSubmit={form.handleSubmit(onSubmit)}
-            className="mx-auto w-80 z-50"
+            className="mx-auto w-80 z-40"
           >
             <div className="space-y-6  mb-8">
               <FormField

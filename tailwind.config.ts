@@ -24,7 +24,8 @@ const config = {
         footerBackground: "#F7F6F2",
         secondaryBackground: "#F6E9E3",
         thirdBackground: "#8E5F6F",
-        mainText: "#4B5666",
+        mainText: "#515151",
+        secondText: "#4B5666",
 
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
