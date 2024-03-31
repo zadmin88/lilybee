@@ -4,18 +4,21 @@ export const Hero = () => {
   return (
     <>
       <Image
-        src="/images/lilybee-website-banner-efflorence-desktop.webp"
+        src="/images/lilybee-website-banner-1400-efflorence-desktop.webp"
         alt="Logo"
-        width={1400}
-        height={240}
-        className="hidden sm:block"
+        width="0"
+        height="0"
+        sizes="100vw"
+        // fill={true}
+        className="hidden sm:block  lg:h-[512px] md:h-full w-full   aspect-auto "
       />
       <Image
         src="/images/lilybee-website-banner-efflorence-mobile.webp"
         alt="Logo"
-        width={700}
-        height={600}
-        className="flex sm:hidden"
+        width="0"
+        height="0"
+        sizes="100vw"
+        className="flex sm:hidden w-[600px] h-[450px] aspect-auto"
       />
     </>
   );

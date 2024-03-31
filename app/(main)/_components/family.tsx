@@ -43,7 +43,7 @@ const FamilyComponent = () => {
         alt="Family"
         width={572}
         height={852}
-        className="lg:h-[426px] lg:w-[300px] h-[300px] w-[200px] absolute  left-0 lg:-top-16 top-0 opacity-90"
+        className="lg:h-[426px] lg:w-[300px] h-[300px] w-[200px] absolute  left-0 lg:-top-16 top-0 opacity-50 md:opacity-90"
       />
     </div>
   );
