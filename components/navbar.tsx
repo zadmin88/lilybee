@@ -25,11 +25,11 @@ export const Navbar = () => {
     >
       <Link className=" w-full flex justify-center  md:hidden" href="/">
         <Image
-          src="/logo.png"
+          src="/images/logo-lilybee.webp"
           alt="Logo"
-          width={1200}
-          height={240}
-          className="h-11 w-56  "
+          width={1280}
+          height={250}
+          className="h-12 w-56"
         />
       </Link>
 

@@ -6,11 +6,11 @@ export const Logo = () => {
     <div className="hidden md:flex md:justify-center w-full pt-8 pb-4 bg-headerBackground">
       <Link href="/">
         <Image
-          src="/logo.png"
+          src="/images/logo-lilybee.webp"
           alt="Logo"
-          width={224}
-          height={48}
-          className="h-12 w-56  "
+          width={1280}
+          height={250}
+          className="h-12 w-56"
         />
       </Link>
     </div>

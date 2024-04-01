@@ -10,11 +10,11 @@ export const Footer = () => {
   return (
     <div className="bottom-0 pt-16 bg-footerBackground w-full text-mainText    flex flex-col gap-4 md:gap-8 items-center justify-between z-50 ">
       <Image
-        src="/isotipo.png"
+        src="/images/bee.webp"
         alt="Logo"
-        width={96}
-        height={81}
-        // className="h-16"
+        width={600}
+        height={500}
+        className="h-20 w-24"
       />
       <div className="flex flex-col items-center justify-center px-8 text-center">
         <h3 className="md:text-xl font-semibold">
