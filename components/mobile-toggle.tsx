@@ -4,6 +4,7 @@ import { Menu, X } from "lucide-react";
 import { IoMdMenu } from "react-icons/io";
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
+import { SlMenu } from "react-icons/sl";
 
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
@@ -32,7 +33,7 @@ export const MobileToggle = ({ children }: { children: React.ReactNode }) => {
             size="icon"
             className="lg:hidden text-mainText"
           >
-            <IoMdMenu className="h-16 w-6 text-mainText" />
+            <SlMenu className="h-16 w-6 text-mainText" />
           </Button>
         )}
       </SheetTrigger>
