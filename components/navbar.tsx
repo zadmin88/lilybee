@@ -2,8 +2,10 @@
 
 import Link from "next/link";
 
-import { FaInstagram, FaFacebookF } from "react-icons/fa";
-import { ImPinterest2 } from "react-icons/im";
+import { FaFacebookF } from "react-icons/fa";
+import { BsInstagram } from "react-icons/bs";
+import { RiPinterestLine } from "react-icons/ri";
+
 import { cn } from "@/lib/utils";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
@@ -77,12 +79,12 @@ export const Navbar = () => {
           <MobileNavbar />
         </MobileToggle>
       </div>
-      <div className="hidden  absolute right-4 md:right-8 lg:right-16 top-1/2 transform -translate-y-1/2 md:flex gap-4 text-mainText ">
+      <div className="hidden  absolute right-4 md:right-8 lg:right-16 top-1/2 transform -translate-y-1/2 md:flex gap-4 text-mainText items-center">
         <a href="https://www.instagram.com/lilybeegentle/">
-          <FaInstagram size={24} />
+          <BsInstagram size={24} />
         </a>
         <a href="https://pinterest.com/lilybeegentle/">
-          <ImPinterest2 size={24} />
+          <RiPinterestLine size={26} />
         </a>
         <a href="https://www.facebook.com/profile.php?id=100086417744367">
           <FaFacebookF size={24} />
